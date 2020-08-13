@@ -1,10 +1,10 @@
-## The XCUITest Driver for iOS
+##  iOS 的 XCUITest Driver （驱动程序）
 
-Appium's primary support for automating iOS apps is via the `XCUITest` driver.
-_(New to Appium? Read our [introduction to Appium drivers](#TODO))_. This driver
-leverages Apple's
+Appium主要通过XCUITest来支持iOS应用程序的自动化。
+_(如果你是 Appium 的新手,或者想要一个关于它的更全面的描述,请阅读我们对[Appium 概念的介绍](#TODO))_.  iOS所使用的 driver
+该驱动程序底层基于Apple的
 [XCUITest](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html)
-libraries under the hood in order to facilitate automation of your app . This
+来实现应用程序的自动化。 This
 access to XCUITest is mediated by the
 [WebDriverAgent](https://github.com/facebook/webdriveragent) server.
 WebDriverAgent (also referred to as "WDA") is a project managed by Facebook, to
